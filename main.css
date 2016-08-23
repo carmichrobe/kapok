@@ -1,11 +1,8 @@
-body {
-	height: 100%;
-}
 
 /*class Styles*/
 
 
-.jumbotron {
+.index {
 	background-image: url(img/kapokbg.jpg);
 	background-size: cover;
 	align-content: center;
@@ -13,7 +10,7 @@ body {
 }
 
 
-p {
+#intro {
 	
 	text-align: center;
 	padding-top: 3%;
@@ -58,4 +55,9 @@ p {
 .btn.btn-primary:hover {
   color: #69787f;
   background-color: #fcf1e8;
+}
+
+h1.col-sm-12 a {
+	text-decoration: none;
+	color: #333333;
 }
