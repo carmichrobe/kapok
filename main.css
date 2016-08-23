@@ -1,37 +1,58 @@
 body {
 }
 
-/*Div Styles*/
+/*class Styles*/
 .jumbotron {
 	background-image: url(img/kapokbg.jpg);
 	background-size: cover;
 	align-content: center;
+	display: flex;
+	min-height: 650px;
 }
 
+
+.jumbotron p {
+	
+	text-align: center;
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 12%;
+}
+
+footer .col-sm-12{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1%;
+}
 
 /*Typography*/
 
-jumbotron h3 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 20%;
+header .col-sm-12{
+	text-align: center;
+	padding: 1%;
+	margin: auto;
+	font-size: 800%;	
 }
 
-header {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-	padding: 2%;
-}
-
-#intro {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-	padding: 7%;
-}
 
 p {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 }
 
 /*Link styles*/
 
+.btn.btn-primary {
+	border: none;
+	padding: 2%;
+	font-size: 200%;
+	margin: 2%;
+	background-color: #77aa8c;
+	
+}
+
+.btn.btn-primary:hover {
+  color: #69787f;
+  background-color: #fcf1e8;
+}
