@@ -1,7 +1,14 @@
-
+/* media query learnt from lynda.com bootstrap 3 essentials capter 4*/
+@media (max-width: 767px) {
+	.img-responsive {
+		max-width: 50%;
+		min-width: 300px;
+	}
+}
 /*class Styles*/
-
-
+.designer {
+	padding: 7.5%;
+}
 .index {
 	background-image: url(img/kapokbg.jpg);
 	background-size: cover;
@@ -23,7 +30,7 @@ footer .col-sm-12{
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 2%;
+	padding: 2%;
 }
 
 /*Typography*/
@@ -60,4 +67,8 @@ p {
 h1.col-sm-12 a {
 	text-decoration: none;
 	color: #333333;
+}
+
+.des h1{
+	text-align: center;
 }
