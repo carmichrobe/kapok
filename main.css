@@ -6,8 +6,19 @@
 	}
 }
 /*class Styles*/
+
+section.jumbotron.designer{
+	background-color: #5ae592;
+}
+
+
 .designer {
-	padding: 7.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.des.container{
+	padding-bottom: 5%;
 }
 .index {
 	background-image: url(img/kapokbg.jpg);
@@ -35,6 +46,24 @@ footer .col-sm-12{
 
 /*Typography*/
 
+h1 small{
+	font-size: 30px;
+}
+p.col-sm-12 {
+	color: black;
+	font-size: 24px;
+}
+
+h1.deshead{
+	color: #565656;
+}
+
+p.pinfo{
+	font-size: 18px;
+	padding-bottom: 2%;
+	color: grey;
+}
+
 header .col-sm-12{
 	text-align: center;
 	padding-top: 1%;
@@ -48,14 +77,27 @@ p {
 	text-align: center;
 }
 
-/*Link styles*/
+/*Button and Link styles*/
+
+a.btn.btn-success {
+	border: none;
+	padding: 3%;
+	font-size: 200%;
+	background-color: #5ae592;
+	color: #ffffff;	
+}
+
+a.btn.btn-success:hover {
+	background-color: #beedbf;
+	
+}
 
 .btn.btn-primary {
 	border: none;
 	padding: 2%;
 	font-size: 240%;
 	margin: 2%;
-	background-color: #77aa8c;
+	background-color: #5ae592;
 	
 }
 
@@ -71,4 +113,25 @@ h1.col-sm-12 a {
 
 .des h1{
 	text-align: center;
+}
+
+/*Below code taken from http://stackoverflow.com/questions/35647044/boostrap-how-to-stick-a-button-over-an-image-when-re-sizing*/
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 42%;
 }
