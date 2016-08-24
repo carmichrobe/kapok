@@ -7,24 +7,39 @@
 }
 /*class Styles*/
 
+footer{
+	background-color: #333333;
+	padding: 3%;
+}
+
 section.jumbotron.designer{
 	background-color: #5ae592;
 }
 
-
+/*Designer Jumbotron*/
 .designer {
+	
 	padding-left: 10%;
 	padding-right: 10%;
+	
+}
+
+/*Index Jumbotron*/
+.intro {
+	background-image: url(img/clouds.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: #333333;
+	min-height: 350px;
 }
 
 .des.container{
 	padding-bottom: 5%;
 }
+
 .index {
-	background-image: url(img/kapokbg.jpg);
-	background-size: cover;
-	align-content: center;
-	min-height: 700px;
 }
 
 
@@ -41,7 +56,7 @@ footer .col-sm-12{
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	padding: 2%;
+	padding-top: 1%;
 }
 
 /*Typography*/
@@ -50,9 +65,17 @@ h1 small{
 	font-size: 30px;
 }
 p.col-sm-12 {
-	color: black;
 	font-size: 24px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: black;
 }
+
+p.col-sm-12.designintro {
+	font-size: 24px;
+	padding: 3%;
+}
+
 
 h1.deshead{
 	color: #565656;
@@ -75,6 +98,12 @@ header .col-sm-12{
 
 p {
 	text-align: center;
+	
+}
+
+li.col-sm-2{
+	font-size: 16px;
+	color: #ffffff;
 }
 
 /*Button and Link styles*/
@@ -94,16 +123,23 @@ a.btn.btn-success:hover {
 
 .btn.btn-primary {
 	border: none;
-	padding: 2%;
-	font-size: 240%;
-	margin: 2%;
-	background-color: #5ae592;
+	padding: 3%;
+	margin-top: 0;
+	font-size: 200%;
+	background-color: #8eb2dd;
 	
 }
 
-.btn.btn-primary:hover {
-  color: #69787f;
-  background-color: #fcf1e8;
+.btn.btn-primary.idesign:hover {
+  background-color: #5ae592;
+}
+
+.btn.btn-primary.ibusiness:hover {
+  background-color: #c050ef;
+}
+
+.btn.btn-primary.iconsumer:hover {
+  background-color: #ed5151;
 }
 
 h1.col-sm-12 a {
