@@ -12,15 +12,31 @@ footer{
 	padding: 3%;
 }
 
-section.jumbotron.designer{
-	background-color: #5ae592;
-}
 
 /*Designer Jumbotron*/
 .designer {
 	
 	padding-left: 10%;
 	padding-right: 10%;
+	background-color: #5ae592;
+	
+}
+
+/*Business Jumbotron*/
+.business {
+	
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #ff506e;
+	
+}
+
+/*Consumer Jumbotron*/
+.consumer {
+	
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #ffc552;
 	
 }
 
@@ -32,7 +48,8 @@ section.jumbotron.designer{
 	padding-left: 15%;
 	padding-right: 15%;
 	background-color: #333333;
-	min-height: 350px;
+	min-height: 300px;
+	
 }
 
 .des.container{
@@ -61,8 +78,18 @@ footer .col-sm-12{
 
 /*Typography*/
 
-h1 small{
+h1 small.smalldes{
 	font-size: 30px;
+	color:#5ae592;
+}
+h1 small.smallbus{
+	font-size: 30px;
+	/*color:#c050ef;*/
+	color: #ff506e;
+}
+h1 small.smallcos{
+	font-size: 30px;
+	color:#ffc552;
 }
 p.col-sm-12 {
 	font-size: 24px;
@@ -107,7 +134,7 @@ li.col-sm-2{
 }
 
 /*Button and Link styles*/
-
+/*Design Buttons*/
 a.btn.btn-success {
 	border: none;
 	padding: 3%;
@@ -117,29 +144,58 @@ a.btn.btn-success {
 }
 
 a.btn.btn-success:hover {
-	background-color: #beedbf;
+	background-color: #c4fddb;
 	
 }
 
+/*Business Buttons*/
+a.btn.btn-success.busbtn {
+	border: none;
+	padding: 3%;
+	font-size: 200%;
+	background-color: #ff506e;
+	color: #ffffff;	
+}
+
+a.btn.btn-success.busbtn:hover {
+	background-color: #ffaebc;
+	
+}
+
+/*Consumer Buttons*/
+a.btn.btn-success.cosbtn {
+	border: none;
+	padding: 3%;
+	font-size: 200%;
+	background-color: #ffc552;
+	color: #ffffff;	
+}
+
+a.btn.btn-success.cosbtn:hover {
+	background-color: #ffe4ae;
+	
+}
+
+/*index buttons*/
 .btn.btn-primary {
 	border: none;
 	padding: 3%;
 	margin-top: 0;
 	font-size: 200%;
-	background-color: #8eb2dd;
-	
+	background-color: #565656;
 }
+
 
 .btn.btn-primary.idesign:hover {
   background-color: #5ae592;
 }
 
 .btn.btn-primary.ibusiness:hover {
-  background-color: #c050ef;
+  background-color: #ff506e;
 }
 
 .btn.btn-primary.iconsumer:hover {
-  background-color: #ed5151;
+  background-color: #ffc552;
 }
 
 h1.col-sm-12 a {
