@@ -18,31 +18,36 @@ footer{
 	
 	padding-left: 10%;
 	padding-right: 10%;
-	background-color: #5ae592;
+	background-image: url(img/hill.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	/*background-color: #5ae592;*/
 	
 }
 
 /*Business Jumbotron*/
 .business {
-	
 	padding-left: 10%;
 	padding-right: 10%;
-	background-color: #ff506e;
-	
+	background-image: url(img/busjumbo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /*Consumer Jumbotron*/
 .consumer {
-	
 	padding-left: 10%;
 	padding-right: 10%;
-	background-color: #ffc552;
+	background-image: url(img/canyon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	
 }
 
 /*Index Jumbotron*/
 .intro {
-	background-image: url(img/clouds.jpg);
+	background-image: url(img/trees01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-left: 15%;
@@ -78,28 +83,19 @@ footer .col-sm-12{
 
 /*Typography*/
 
-h1 small.smalldes{
+h1 small{
 	font-size: 30px;
-	color:#5ae592;
-}
-h1 small.smallbus{
-	font-size: 30px;
-	/*color:#c050ef;*/
-	color: #ff506e;
-}
-h1 small.smallcos{
-	font-size: 30px;
-	color:#ffc552;
+
 }
 p.col-sm-12 {
-	font-size: 24px;
+	font-size: 26px;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	color: black;
+	color: white;
 }
 
 p.col-sm-12.designintro {
-	font-size: 24px;
+	font-size: 26px;
 	padding: 3%;
 }
 
@@ -139,12 +135,12 @@ a.btn.btn-success {
 	border: none;
 	padding: 3%;
 	font-size: 200%;
-	background-color: #5ae592;
+	background-color: #0b0b21;
 	color: #ffffff;	
 }
 
 a.btn.btn-success:hover {
-	background-color: #c4fddb;
+	background-color: #8f4e4b;
 	
 }
 
@@ -153,12 +149,12 @@ a.btn.btn-success.busbtn {
 	border: none;
 	padding: 3%;
 	font-size: 200%;
-	background-color: #ff506e;
+	background-color: #bd9661;
 	color: #ffffff;	
 }
 
 a.btn.btn-success.busbtn:hover {
-	background-color: #ffaebc;
+	background-color: #1d1d1d;
 	
 }
 
@@ -167,13 +163,13 @@ a.btn.btn-success.cosbtn {
 	border: none;
 	padding: 3%;
 	font-size: 200%;
-	background-color: #ffc552;
+	background-color: #d19578;
 	color: #ffffff;	
 }
 
 a.btn.btn-success.cosbtn:hover {
-	background-color: #ffe4ae;
-	
+	background-color: #24060b;
+	color: #ffffff;
 }
 
 /*index buttons*/
@@ -182,20 +178,20 @@ a.btn.btn-success.cosbtn:hover {
 	padding: 3%;
 	margin-top: 0;
 	font-size: 200%;
-	background-color: #565656;
+	background-color: #4a5f38;
 }
 
 
 .btn.btn-primary.idesign:hover {
-  background-color: #5ae592;
+  background-color: #8f4e4b;
 }
 
 .btn.btn-primary.ibusiness:hover {
-  background-color: #ff506e;
+  background-color: #bd9661;
 }
 
 .btn.btn-primary.iconsumer:hover {
-  background-color: #ffc552;
+  background-color: #d19578;
 }
 
 h1.col-sm-12 a {
