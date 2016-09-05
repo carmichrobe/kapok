@@ -7,6 +7,7 @@
 }
 /*class Styles*/
 
+
 section.col-sm-6 {
 	padding-bottom: 10%;
 	padding-left: 5%;
@@ -18,6 +19,22 @@ footer{
 	padding: 3%;
 }
 
+section.jumbotron.tools{
+	padding-left: 10%;
+	padding-right: 10%;
+	background-image: url(img/tools02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: black;
+	height: 220px;
+
+}
+
+/*Form Styles*/
+
+form.formTools {
+	padding-top: 10%;
+}
 
 /*Designer Jumbotron*/
 .designer {
@@ -115,6 +132,9 @@ p.col-sm-12.designintro {
 	padding: 3%;
 }
 
+p.col-sm-12.tools {
+	color: black;
+}
 
 h1.deshead{
 	color: #565656;
@@ -124,6 +144,16 @@ p.pinfo{
 	font-size: 18px;
 	padding-bottom: 2%;
 	color: grey;
+}
+
+p.col-sm-8.tools {
+	font-size: 18px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-right: 3%;
+	padding-left: 3%;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
 }
 
 header .col-sm-12{

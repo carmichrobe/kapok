@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>kapok</title>
+    <meta charset="utf-8"/>
+    <!-- below meta tags as suggested by Bootstrap 3 Lynda.com tutorial -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap v 3.7 CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+</head>
+
+<body>
+
+	<header class="container">
+    	<div class="row">
+        <div class="row text-center">
+    	<h1 class="col-sm-12 toolshead"><a href="index.html">kapok</a><small class="hidden-xs smallbus">tools</small></h1>
+        </div>
+        </div>
+    </header>
+
+    <section class="jumbotron tools">
+   </section>
+
+   <div class="container">
+       		<div class="row">
+            	<p class="col-sm-offset-2 col-sm-8 tools">Welcome to kapok's rate my design tool. Please enter in the material details of your design below and submit for a sustainability rating. We'll then highlight areas of your design that are sustainable or not.
+                </p>
+            </div>
+       </div>
+
+<div class="des container">
+<div class="row">
+   	<div class="row-text-center">
+   	<section class="col-xs-offset-2 col-xs-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+	
+	<!-- Below form is an adaption of the tutorial form covered in lynda.com's Bootstrap 3 Essential Training -->
+	<form class="formTools">
+			
+
+		<div class="form-group">
+			<label for="selectRegion">Region</label>
+			<select class="form-control" id="selectRegion">
+				<option>Choose...</option>
+				<option>USA</option>
+				<option>UK</option>
+				<option>EUROPE</option>
+				<option>ASIA</option>
+				<option>AFRICA</option>
+				<option>SOUTH AMERICA</option>
+				<option>OCEANIA</option>
+
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="selectLocal">Are you importing or puchasing materials from outside your region?</label>
+			<select class="form-control" id="selectLocal">
+				<option>Choose...</option>
+				<option>I'm importing materials</option>
+				<option>I'm buying locally produced materials</option>
+				<option>I don't know where my materials come from</option>
+
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="selectRecycle">Are the materials and end product recylcable, biodegradable and/or non-toxic?</label>
+			<select class="form-control" id="selectRecycle">
+				<option>Choose...</option>
+				<option>None of the above</option>
+				<option>Recyclable</option>
+				<option>Biodegradable</option>
+				<option>Non-toxic</option>
+				<option>All of the above</option>
+				<option>I'm not sure</option>
+
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="selectRedesign">Does your design recycle or re-use any existing products or designs?</label>
+			<select class="form-control" id="selectRedesign">
+				<option>Choose...</option>
+				<option>Yes, some of the materials are re-purposed products</option>
+				<option>Yes, my whole product incorporates redesign</option>
+				<option>No</option>
+				<option>I'm not sure</option>
+
+			</select>
+		</div>
+
+
+		<div class="form-group">
+			<label for="selectLifespan">What is the estimated lifespan of your end product?</label>
+			<select class="form-control" id="selectLifespan">
+				<option>Choose...</option>
+				<option>Less than a year</option>
+				<option>1-2 years</option>
+				<option>3-5 years</option>
+				<option>5-10 years</option>
+				<option>10-20 years</option>
+				<option>lifetime</option>
+
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="selectEmotion">Does the design consider emotional durability?</label>
+			<select class="form-control" id="selectEmotion">
+				<option>Choose...</option>
+				<option>Yes, the design considers the durability of the relationship between product and people</option>
+				<option>No, I'm not concerned with the emotional durability of this design</option>
+				<option>I haven't thought about it</option>	
+
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="selectExport">Will the product be manufactured and sold within your region or exported globally?</label>
+			<select class="form-control" id="selectExport">
+				<option>Choose...</option>
+				<option>Locally made and sold in small quantities (eg bespoke furniture)</option>
+				<option>Mass produced and sold within region</option>
+				<option>Produced locally, exported overseas</option>
+				<option>Sold globally, manufactured globally</option>
+				<option>I'm not sure</option>		
+
+			</select>
+		</div>
+
+		<div class="form-group">
+			<input id="trained" type="checkbox">
+			<label for="trained">I have completed training in sustainable design, either on kapok, or elsewhere.</label>
+		</div>
+
+		<div class="form-group">
+			<input type="submit" value="submit">
+		</div>
+
+
+	</form>
+	</section>
+	</div>
+</div>
+</div>
+
+
+
+
+	<footer class="container col-sm-12 desfooter">
+    	<div class="row">
+        <div class="row text-center"> 
+        	<ul class="col-sm-12">
+                <li class="col-sm-2"><a href="about.html">Contact</a></li>
+                <li class="col-sm-2"><a href="register.html">Register</a></li>
+                <li class="col-sm-2"><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        </div>
+ 	</footer>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
+
