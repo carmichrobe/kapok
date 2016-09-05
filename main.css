@@ -227,6 +227,15 @@ h1.col-sm-12 a {
 	color: #333333;
 }
 
+li.col-sm-2 a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+li.col-sm-2 a:hover {
+	color: grey;
+}
+
 .des h1{
 	text-align: center;
 }
