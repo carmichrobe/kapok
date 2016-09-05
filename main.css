@@ -7,6 +7,12 @@
 }
 /*class Styles*/
 
+section.col-sm-6 {
+	padding-bottom: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 footer{
 	background-color: #333333;
 	padding: 3%;
@@ -40,6 +46,16 @@ footer{
 	padding-left: 10%;
 	padding-right: 10%;
 	background-image: url(img/canyon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+/*Education Jumbotron*/
+.education {
+	padding-left: 10%;
+	padding-right: 10%;
+	background-image: url(img/grass.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	
@@ -170,6 +186,18 @@ a.btn.btn-success.cosbtn {
 a.btn.btn-success.cosbtn:hover {
 	background-color: #24060b;
 	color: #ffffff;
+}
+
+/*Education Buttons*/
+
+a.btn.btn-primary.edu {
+  width: 50%;
+  background-color: black;
+}
+
+a.btn.btn-primary.edu:hover {
+  width: 50%;
+  background-color: #8f4e4b;
 }
 
 /*index buttons*/
