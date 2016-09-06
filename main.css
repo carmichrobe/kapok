@@ -5,6 +5,15 @@
 		min-width: 300px;
 	}
 }
+
+/*Containers*/
+
+div.des.container{
+	padding-top: 3%;
+	padding-bottom: 8%;
+	
+}
+
 /*class Styles*/
 
 
@@ -38,12 +47,10 @@ form.formTools {
 
 /*Designer Jumbotron*/
 .designer {
-	
-	padding-left: 10%;
-	padding-right: 10%;
-	background-image: url(img/hill.jpg);
+	background-image: url(img/desjumbo.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 220px;
 	
 	/*background-color: #5ae592;*/
 	
@@ -51,20 +58,18 @@ form.formTools {
 
 /*Business Jumbotron*/
 .business {
-	padding-left: 10%;
-	padding-right: 10%;
-	background-image: url(img/busjumbo.jpg);
+	background-image: url(img/busjumbo02.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 220px;
 }
 
 /*Consumer Jumbotron*/
 .consumer {
-	padding-left: 10%;
-	padding-right: 10%;
-	background-image: url(img/canyon.jpg);
+	background-image: url(img/consumerJumbo01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 220px;
 	
 }
 
@@ -80,13 +85,10 @@ form.formTools {
 
 /*Index Jumbotron*/
 .intro {
-	background-image: url(img/trees01.jpg);
+	background-image: url(img/indexJumbo01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-left: 15%;
-	padding-right: 15%;
-	background-color: #333333;
-	min-height: 300px;
+	height: 220px;
 	
 }
 
@@ -138,6 +140,7 @@ p.col-sm-12.tools {
 
 h1.deshead{
 	color: #565656;
+	font-size: 200%;
 }
 
 p.pinfo{
@@ -146,7 +149,7 @@ p.pinfo{
 	color: grey;
 }
 
-p.col-sm-8.tools {
+p.col-sm-8 {
 	font-size: 18px;
 	padding-bottom: 5%;
 	padding-top: 5%;
@@ -154,6 +157,24 @@ p.col-sm-8.tools {
 	padding-left: 3%;
 	border-top: solid 1px black;
 	border-bottom: solid 1px black;
+}
+
+p.col-sm-10.index {
+	font-size: 24px;
+	color: #565656;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-right: 10%;
+	padding-left: 10%;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+p.col-sm-12.index {
+	color: #333333;
+	font-size: 30px;
+	padding-bottom: 1px;
+
 }
 
 header .col-sm-12{
@@ -233,24 +254,17 @@ a.btn.btn-primary.edu:hover {
 /*index buttons*/
 .btn.btn-primary {
 	border: none;
-	padding: 3%;
-	margin-top: 0;
-	font-size: 200%;
-	background-color: #30332e;
+	padding: 4%;
+	font-size: 150%;
+	background-color: lightgrey;; 
+	color: #ffffff;
 }
 
 
-.btn.btn-primary.idesign:hover {
-  background-color: #8f4e4b;
+.btn.btn-primary:hover {
+  background-color: grey;
 }
 
-.btn.btn-primary.ibusiness:hover {
-  background-color: #bd9661;
-}
-
-.btn.btn-primary.iconsumer:hover {
-  background-color: #d19578;
-}
 
 h1.col-sm-12 a {
 	text-decoration: none;
