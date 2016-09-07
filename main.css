@@ -28,17 +28,6 @@ footer{
 	padding: 3%;
 }
 
-section.jumbotron.tools{
-	padding-left: 10%;
-	padding-right: 10%;
-	background-image: url(img/tools02.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: black;
-	height: 220px;
-
-}
-
 /*Form Styles*/
 
 form.formTools {
@@ -51,8 +40,6 @@ form.formTools {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 220px;
-	
-	/*background-color: #5ae592;*/
 	
 }
 
@@ -75,16 +62,23 @@ form.formTools {
 
 /*Education Jumbotron*/
 .education {
-	padding-left: 10%;
-	padding-right: 10%;
-	background-image: url(img/grass.jpg);
+	background-image: url(img/lakeSide.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 220px;
 	
 }
 
 /*Index Jumbotron*/
 .intro {
+	background-image: url(img/rockfall.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 220px;
+	
+}
+
+.about {
 	background-image: url(img/indexJumbo01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -92,22 +86,19 @@ form.formTools {
 	
 }
 
+/*Tools jumbo*/
+section.jumbotron.tools{
+	background-image: url(img/tools02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 220px;
+
+}
+
 .des.container{
 	padding-bottom: 5%;
 }
 
-.index {
-}
-
-
-#intro {
-	
-	text-align: center;
-	padding-top: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 12%;
-}
 
 footer .col-sm-12{
 	list-style: none;
@@ -129,11 +120,6 @@ p.col-sm-12 {
 	color: white;
 }
 
-p.col-sm-12.designintro {
-	font-size: 26px;
-	padding: 3%;
-}
-
 p.col-sm-12.tools {
 	color: black;
 }
@@ -149,15 +135,6 @@ p.pinfo{
 	color: grey;
 }
 
-p.col-sm-8 {
-	font-size: 18px;
-	padding-bottom: 5%;
-	padding-top: 5%;
-	padding-right: 3%;
-	padding-left: 3%;
-	border-top: solid 1px black;
-	border-bottom: solid 1px black;
-}
 
 p.col-sm-10.index {
 	font-size: 24px;
@@ -197,72 +174,25 @@ li.col-sm-2{
 }
 
 /*Button and Link styles*/
-/*Design Buttons*/
+
 a.btn.btn-success {
 	border: none;
 	padding: 3%;
 	font-size: 200%;
-	background-color: #0b0b21;
-	color: #ffffff;	
+	/*background-color: #4F9D6B;*/
 }
 
-a.btn.btn-success:hover {
-	background-color: #8f4e4b;
-	
-}
-
-/*Business Buttons*/
-a.btn.btn-success.busbtn {
+a.btn.btn-success.edu {
 	border: none;
-	padding: 3%;
+	padding: 2%;
 	font-size: 200%;
-	background-color: #bd9661;
-	color: #ffffff;	
+	width: 30%;
 }
 
-a.btn.btn-success.busbtn:hover {
-	background-color: #1d1d1d;
-	
-}
-
-/*Consumer Buttons*/
-a.btn.btn-success.cosbtn {
-	border: none;
-	padding: 3%;
-	font-size: 200%;
-	background-color: #d19578;
-	color: #ffffff;	
-}
-
-a.btn.btn-success.cosbtn:hover {
-	background-color: #24060b;
-	color: #ffffff;
-}
-
-/*Education Buttons*/
-
-a.btn.btn-primary.edu {
-  width: 50%;
-  background-color: black;
-}
-
-a.btn.btn-primary.edu:hover {
-  width: 50%;
-  background-color: #8f4e4b;
-}
-
-/*index buttons*/
-.btn.btn-primary {
+.btn.btn-success.indexButton {
 	border: none;
 	padding: 4%;
 	font-size: 150%;
-	background-color: lightgrey;; 
-	color: #ffffff;
-}
-
-
-.btn.btn-primary:hover {
-  background-color: grey;
 }
 
 
@@ -289,6 +219,11 @@ li.col-sm-2 a:hover {
   position: relative;
  }
 
+ .on{
+ 	opacity: 0.25;
+
+ }
+
 .img-overlay {
   position: absolute;
   top: 0;
@@ -301,6 +236,5 @@ li.col-sm-2 a:hover {
 .img-overlay:before {
   content: ' ';
   display: block;
-  /* adjust 'height' to position overlay content vertically */
-  height: 42%;
+  height: 40%;
 }
