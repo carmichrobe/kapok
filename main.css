@@ -14,6 +14,10 @@ div.des.container{
 	
 }
 
+/*.dropdown{
+	float: left;
+}*/
+
 /*class Styles*/
 
 
@@ -86,6 +90,14 @@ form.formTools {
 	
 }
 
+.shop{
+	background-image: url(img/shop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 220px;
+
+}
+
 /*Tools jumbo*/
 section.jumbotron.tools{
 	background-image: url(img/tools02.jpg);
@@ -154,12 +166,21 @@ p.col-sm-12.index {
 
 }
 
-header .col-sm-12{
+h1.col-sm-12{
 	text-align: center;
 	padding-top: 1%;
 	padding-bottom: 2%;
 	margin: auto;
 	font-size: 800%;	
+}
+
+h1.col-sm-10{
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: auto;
+	font-size: 800%;
+
 }
 
 
@@ -174,6 +195,13 @@ li.col-sm-2{
 }
 
 /*Button and Link styles*/
+
+/*button.btn.btn-info.dropdown-toggle{
+	background-color: white;
+	color: #333333;
+	border: none;
+	position: fixed;
+}*/
 
 a.btn.btn-success {
 	border: none;
@@ -197,6 +225,10 @@ a.btn.btn-success.edu {
 
 
 h1.col-sm-12 a {
+	text-decoration: none;
+	color: #333333;
+}
+h1.col-sm-10 a {
 	text-decoration: none;
 	color: #333333;
 }
